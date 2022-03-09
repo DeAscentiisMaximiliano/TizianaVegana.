@@ -1,20 +1,22 @@
-/*MAP-COLORES*/
+/*MAP-FONT-COLORES*/
+/*map-BG-colores*/
+/*mixin*/
 @media (min-width: 320px), (max-width: 768px) {
   * {
     padding: 0 !important;
     margin: 0 !important;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
   }
+
   /*HEADER*/
   .navbar {
-    background: -webkit-gradient(linear, left bottom, left top, from(#d4d4d4), to(white)) !important;
     background: linear-gradient(to top, #d4d4d4, white) !important;
     border-bottom: solid #c9c9c9 5px;
   }
+
   .container-fluid h1 {
     text-transform: uppercase;
-    font-family: 'Special Elite', cursive;
+    font-family: "Special Elite", cursive;
     font-weight: bold;
     text-align: center;
     margin-top: 12px !important;
@@ -33,87 +35,85 @@
     text-decoration: none !important;
     color: rgba(70, 185, 35, 0.637);
   }
+
   .navbar-collapse {
     text-transform: uppercase;
     margin-inline: 1rem !important;
     margin: 0% !important;
   }
   .navbar-collapse .nav-link {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     text-align: center;
     color: #ff7b00 !important;
     background-color: rgba(116, 253, 75, 0.082);
     font-size: 1.2rem;
-    -webkit-box-shadow: 0px 0px 2px 1px white;
-            box-shadow: 0px 0px 2px 1px white;
+    box-shadow: 0px 0px 2px 1px white;
   }
+
   /*FIN HEADER*/
   /*INICIO CENTERPAGE*/
   .carousel.inner img {
     border-bottom: solid rgba(0, 0, 0, 0.192) 3px;
     height: 200px;
   }
+
   /*inicio grid center page*/
   .centerPageIndex h3 {
     text-align: center;
     padding: 0.5rem !important;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 123, 0, 0.514)), to(rgba(255, 255, 255, 0.356))) !important;
     background: linear-gradient(to bottom, rgba(255, 123, 0, 0.514), rgba(255, 255, 255, 0.356)) !important;
     color: rgba(70, 185, 35, 0.637);
     text-shadow: 1px -1px 2px white;
-    font-family: 'Special Elite', cursive;
+    font-family: "Special Elite", cursive;
     font-weight: bold;
   }
+
   .indexMain {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    justify-content: center;
+    flex-direction: column;
     display: flex;
   }
   .indexMain p {
     padding: 5% !important;
     text-align: center;
     text-shadow: white 2px 2px 5px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 16px;
   }
   .indexMain img {
     padding-bottom: 20% !important;
   }
+
   footer {
-    background: -webkit-gradient(linear, left top, left bottom, from(#d4d4d4), to(white));
     background: linear-gradient(to bottom, #d4d4d4, white);
-    -webkit-box-shadow: 0px 0px 4px 8px #d4d4d4;
-            box-shadow: 0px 0px 4px 8px #d4d4d4;
+    box-shadow: 0px 0px 4px 8px #d4d4d4;
   }
+
   .row h5 {
-    font-family: 'Special Elite', cursive;
+    font-family: "Special Elite", cursive;
     font-weight: bold;
     margin-top: 0.5rem !important;
     color: rgba(70, 185, 35, 0.637);
   }
+
   .redesico img {
     width: 40px;
     padding: 5px !important;
   }
+
   .footer-copyright {
     font-weight: bold !important;
     font-size: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-top: 0% !important;
   }
   .footer-copyright h6 {
     font-weight: bold !important;
     font-size: 13px;
   }
+
   .mainVeganoHTML {
     color: white;
     text-shadow: 0 0 1px black;
@@ -134,30 +134,31 @@
     background-color: rgba(0, 0, 0, 0.329);
     border-radius: 5px;
   }
+
   .mainbanner .banner {
     opacity: 0.1;
     max-height: 30px;
     width: 100%;
-    -webkit-box-shadow: grey 1px 1px 1px 1px;
-            box-shadow: grey 1px 1px 1px 1px;
+    box-shadow: grey 1px 1px 1px 1px;
   }
+
   .mainVegano1 {
     text-align: center;
   }
   .mainVegano1 h3 {
     text-align: center;
     padding: 0.5rem !important;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 123, 0, 0.514)), to(rgba(255, 255, 255, 0.356))) !important;
     background: linear-gradient(to bottom, rgba(255, 123, 0, 0.514), rgba(255, 255, 255, 0.356)) !important;
     color: rgba(70, 185, 35, 0.637);
     text-shadow: 1px -1px 2px white;
-    font-family: 'Special Elite', cursive;
+    font-family: "Special Elite", cursive;
     font-weight: bold;
   }
   .mainVegano1 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
   }
+
   .VeganDatos {
     margin: 1rem !important;
     text-align: left;
@@ -167,12 +168,12 @@
   }
   .VeganDatos li {
     border-bottom: solid rgba(43, 43, 43, 0.342) 2px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
   }
+
   .mainVegano2 {
-    -webkit-box-shadow: rgba(201, 125, 64, 0.315) 0px 0px 10px 10px;
-            box-shadow: rgba(201, 125, 64, 0.315) 0px 0px 10px 10px;
+    box-shadow: rgba(201, 125, 64, 0.315) 0px 0px 10px 10px;
     background-image: url(imagenes/FondoVeganoIndex2.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -185,37 +186,30 @@
     color: #2b2b2b;
     font-weight: bold;
   }
+
   .mainMenu-html {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
   .mainMenu-html h2 {
     text-transform: uppercase;
-    font-family: 'Special Elite', cursive;
+    font-family: "Special Elite", cursive;
     font-weight: bold;
     margin: 1rem !important;
   }
   .mainMenu-html p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
   }
+
   .card {
     margin: 1rem !important;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.279) 0px 0px 10px 0px;
-            box-shadow: rgba(0, 0, 0, 0.279) 0px 0px 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.279) 0px 0px 10px 0px;
   }
+
   .card-body p {
     font-size: 10px;
     margin: 0.5rem !important;
@@ -226,30 +220,22 @@
     border: solid #00a023 1px;
     background-color: #ff7b00;
   }
+
   .mainRecetas-html {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
   .mainRecetas-html h2 {
-    font-family: 'Special Elite', cursive;
+    font-family: "Special Elite", cursive;
     padding: 1rem !important;
     color: #ff7b00;
     text-transform: uppercase;
   }
   .mainRecetas-html p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 1rem !important;
@@ -258,7 +244,7 @@
     text-transform: uppercase;
     text-align: left;
     margin: 0.5rem !important;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
   }
   .mainRecetas-html img {
@@ -268,7 +254,7 @@
     background-color: rgba(0, 0, 0, 0.301);
   }
   .mainRecetas-html ul {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 12px;
   }
@@ -278,16 +264,15 @@
     margin-block: 1rem !important;
     padding-bottom: 0.5rem !important;
     border-top: solid rgba(0, 0, 0, 0.459);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 123, 0, 0.514)), to(white)) !important;
     background: linear-gradient(to bottom, rgba(255, 123, 0, 0.514), white) !important;
   }
   .mainRecetas-html p {
     font-size: 14px;
     margin: 1rem !important;
   }
+
   .recetasheader {
-    -webkit-box-shadow: rgba(0, 0, 0, 0.762) 0px 0px 10px 2px;
-            box-shadow: rgba(0, 0, 0, 0.762) 0px 0px 10px 2px;
+    box-shadow: rgba(0, 0, 0, 0.762) 0px 0px 10px 2px;
   }
   .recetasheader h3 {
     padding: 0.5rem !important;
@@ -295,36 +280,32 @@
     text-shadow: black 0px 1px;
     background-color: rgba(0, 0, 0, 0.301);
   }
+
   .receta1 .recetasheader {
     background-image: url(imagenes/Recetas1.png);
   }
+
   .receta2 .recetasheader {
     background-image: url(imagenes/Recetas2.png);
   }
+
   .receta3 .recetasheader {
     background-image: url(imagenes/Recetas3.png);
   }
+
   .receta4 .recetasheader {
     background-image: url(imagenes/Recetas4.png);
   }
+
   .mainRecetas2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
   .mainRecetas2 h3 {
-    font-family: 'Special Elite', cursive;
+    font-family: "Special Elite", cursive;
     padding: 1rem !important;
     color: #ff7b00;
     text-transform: uppercase;
@@ -334,17 +315,18 @@
     background: white !important;
   }
   .mainRecetas2 h5 {
-    font-family: 'Special Elite', cursive;
+    font-family: "Special Elite", cursive;
     padding: 1rem !important;
   }
   .mainRecetas2 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 16px;
     margin-inline: 1rem !important;
     margin-bottom: 1rem !important;
     border-bottom: solid #00a023 1px;
   }
+
   .main-contacto {
     background-image: url(imagenes/FondoContacto2-html.png);
     padding-bottom: 5rem !important;
@@ -356,21 +338,17 @@
     text-align: center;
     color: white !important;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     text-shadow: #ff7b00 0px 0px 1px;
   }
+
   .half.left.cf {
     margin-left: 12% !important;
   }
   .half.left.cf input {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding: 0.1rem !important;
     margin-block: 1rem !important;
     width: 250px !important;
@@ -380,7 +358,7 @@
     border: solid rgba(0, 0, 0, 0.288);
     font-size: 10px;
   }
-  .half.left.cf input::-webkit-input-placeholder {
+  .half.left.cf input::-moz-placeholder {
     color: white;
     text-align: center;
   }
@@ -388,14 +366,11 @@
     color: white;
     text-align: center;
   }
-  .half.left.cf input::-ms-input-placeholder {
-    color: white;
-    text-align: center;
-  }
   .half.left.cf input::placeholder {
     color: white;
     text-align: center;
   }
+
   .half.right.cf {
     margin-left: 12% !important;
     margin-block: 3rem !important;
@@ -409,18 +384,16 @@
     border: solid rgba(0, 0, 0, 0.288);
     font-size: 10px;
   }
-  .half.right.cf textarea::-webkit-input-placeholder {
+  .half.right.cf textarea::-moz-placeholder {
     color: white;
   }
   .half.right.cf textarea:-ms-input-placeholder {
     color: white;
   }
-  .half.right.cf textarea::-ms-input-placeholder {
-    color: white;
-  }
   .half.right.cf textarea::placeholder {
     color: white;
   }
+
   .enviar-boton input {
     color: white !important;
     text-shadow: #ffffff 0px 0px 8px;
@@ -428,61 +401,57 @@
     border: solid rgba(0, 0, 0, 0.288);
     width: 320px;
   }
+
   /*fin centerpage*/
 }
-
 @media (min-width: 768px) {
   /*INICIO CENTERPAGE*/
   /*inicio grid center page*/
   .indexMain {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
     text-align: center;
   }
   .indexMain img {
     padding-bottom: 10% !important;
     width: 250px !important;
-    -ms-flex-line-pack: right !important;
-        align-content: right !important;
-    -webkit-box-align: right !important;
-        -ms-flex-align: right !important;
-            align-items: right !important;
+    align-content: right !important;
+    align-items: right !important;
   }
   .indexMain .p2 {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2 / 3;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1 / 2;
+    grid-column: 2/3;
+    grid-row: 1/2;
   }
+
   footer {
     margin-top: 1rem !important;
   }
+
   .mainVeganoHTML {
     padding: 4rem !important;
   }
+
   .mainVegano1 h3 {
     margin-bottom: 1rem !important;
   }
   .mainVegano1 p {
     padding: 1rem !important;
   }
+
   .mainVegano2 p {
     padding: 0.5rem !important;
     padding-block: 2rem !important;
   }
+
   .mainMenu-html p {
     margin-inline: 0.5rem !important;
   }
+
   .CardsMenu-html {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-column: 50;
     grid-column: 50%, 50%;
   }
+
   .card {
     height: 430px !important;
   }
@@ -497,19 +466,18 @@
     margin: 0.5rem !important;
     padding: 0.2rem !important;
   }
+
   .card1 {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1 / 2;
+    grid-column: 1/2;
   }
+
   .card2 {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2 / 3;
+    grid-column: 2/3;
   }
   .card2 .btn.btn-primary {
     margin-top: 17px !important;
   }
+
   .main-contacto {
     padding-bottom: 2rem !important;
   }
@@ -517,42 +485,37 @@
     padding: 1rem !important;
     font-size: 20px;
   }
+
   .half.left.cf {
     margin-left: 17rem !important;
   }
   .half.left.cf input {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding: 0.1rem !important;
     margin-block: 1rem !important;
   }
-  .half.left.cf input::-webkit-input-placeholder {
+  .half.left.cf input::-moz-placeholder {
     text-align: center;
   }
   .half.left.cf input:-ms-input-placeholder {
     text-align: center;
   }
-  .half.left.cf input::-ms-input-placeholder {
-    text-align: center;
-  }
   .half.left.cf input::placeholder {
     text-align: center;
   }
+
   .half.right.cf {
     margin-left: 17rem !important;
   }
+
   .enviar-boton input {
     width: 500px;
     margin-left: 9rem !important;
   }
+
   /*fin centerpage*/
 }
-
 @media (min-width: 992px) {
   /*HEADER*/
   .container-fluid h1 {
@@ -561,65 +524,67 @@
   .container-fluid h1 a:hover {
     color: #ff7b00;
   }
+
   .nav-link {
     text-transform: uppercase;
     padding-inline: 5px !important;
     margin-inline: 5px !important;
     font-size: 18px;
   }
+
   .nav-item:hover {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
   }
+
   /*FIN HEADER*/
   /*INICIO CENTERPAGE*/
   /*inicio grid center page*/
   .indexMain {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
   }
   .indexMain .p2 {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2 / 3;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1 / 2;
+    grid-column: 2/3;
+    grid-row: 1/2;
   }
   .indexMain img {
     padding-bottom: 10% !important;
     width: 250px !important;
   }
+
   footer {
     margin-top: 1rem !important;
   }
+
   .mainVeganoHTML {
     padding: 8rem !important;
   }
+
   .mainVegano1 p {
     padding-block: 3rem !important;
   }
+
   .VeganDatos {
     padding-bottom: 5rem !important;
     text-align: left;
   }
+
   .mainVegano2 p {
     padding: 1.5rem !important;
   }
+
   .mainMenu-html p {
     margin-inline: 0.5rem !important;
   }
+
   .CardsMenu-html {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-column: 50;
     grid-column: 50%, 50%;
   }
   .CardsMenu-html .card-body {
     padding-block: 1rem !important;
   }
+
   .card {
     margin-inline: 4rem !important;
     height: 500px !important;
@@ -629,6 +594,7 @@
     max-width: 300px !important;
     height: 180px !important;
   }
+
   .card-body h4 {
     padding-inline: 0.2rem !important;
   }
@@ -636,35 +602,43 @@
     margin: 0.5rem !important;
     padding: 0.5rem !important;
   }
+
   .card2 .btn.btn-primary {
     margin-top: 12px !important;
   }
+
   .mainRecetas-html img {
     width: 250px;
     margin-top: 4.5rem !important;
   }
+
   .recetasheader {
     height: 400px !important;
   }
   .recetasheader h3 {
     text-shadow: black 0px 1px;
   }
+
   .receta1 .recetasheader {
     background-image: url(imagenes/Recetas1.png);
     background-size: cover;
   }
+
   .receta2 .recetasheader {
     background-image: url(imagenes/Recetas2.png);
     background-size: cover;
   }
+
   .receta3 .recetasheader {
     background-image: url(imagenes/Recetas3.png);
     background-size: cover;
   }
+
   .receta4 .recetasheader {
     background-image: url(imagenes/Recetas4.png);
     background-size: cover;
   }
+
   .main-contacto {
     padding-bottom: 2rem !important;
   }
@@ -672,22 +646,23 @@
     padding: 1rem !important;
     font-size: 20px;
   }
+
   .half.left.cf {
     margin-left: 23rem !important;
   }
+
   .half.right.cf {
     margin-left: 23rem !important;
   }
+
   .enviar-boton input {
     width: 500px;
     margin-left: 15rem !important;
   }
   .enviar-boton input:hover {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
   }
 }
-
 @media (min-width: 1024px) {
   /*HEADER*/
   .container-fluid img {
@@ -697,17 +672,20 @@
     padding-left: 20px !important;
     padding-block: 10px !important;
   }
+
   .nav-link {
     font-size: 16px !important;
     margin: 5px !important;
     padding: 5px !important;
   }
+
   /*FIN HEADER*/
   /*FIN INDEX.HTML*/
   .redesico img {
     width: 40px;
     padding: 5px !important;
   }
+
   /*FIN FOOTER*/
   .mainVegano1 h3 {
     font-size: 32px;
@@ -715,9 +693,11 @@
   .mainVegano1 p {
     font-size: 18px;
   }
+
   .VeganDatos {
     padding-block: 2rem !important;
   }
+
   .mainVegano2 {
     background-image: url(imagenes/FondoVeganoIndex2.png);
     background-size: cover;
@@ -727,6 +707,7 @@
     padding: 2rem !important;
     font-size: 20px;
   }
+
   .card {
     margin: 4rem !important;
     width: 300px !important;
@@ -737,7 +718,6 @@
     min-height: 300px !important;
   }
 }
-
 @media (min-width: 1200px) {
   /*INICIO HEADER*/
   .container-fluid img {
@@ -747,21 +727,25 @@
     font-size: 40px;
     padding-inline: 20px !important;
   }
+
   .nav-link {
     font-size: 18px !important;
     margin-inline: 5px !important;
     padding-inline: 10px !important;
   }
+
   /* FIN HEADER*/
   /*INICIO FOOTER*/
   .redesico img {
     width: 50px !important;
   }
+
   /*FIN FOOTER*/
   /*INICIO CONTACTO.HTML*/
   .main-contacto {
     height: 750px !important;
   }
+
   .half.left.cf {
     margin-left: 10rem !important;
     margin-top: 10rem !important;
@@ -771,6 +755,7 @@
     margin-block: 5rem !important;
     width: 350px !important;
   }
+
   .half.right.cf {
     position: relative;
     margin-left: 38rem !important;
@@ -780,6 +765,7 @@
     width: 450px !important;
     height: 300px !important;
   }
+
   .enviar-boton input {
     width: 700px;
     margin-left: 13rem !important;
@@ -787,9 +773,8 @@
     top: -300px !important;
   }
   .enviar-boton input:hover {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
   }
+
   /*FIN CONTACTO.HTML*/
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
