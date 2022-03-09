@@ -1,0 +1,74 @@
+@media (min-width: 1024px){
+
+//inicio INDEX.html//
+    /*HEADER*/ 
+
+    .container-fluid{ 
+        img{
+            width: auto;   
+            opacity: 0.6;
+            border-radius: 50px; 
+            padding-left: 20px !important;
+            padding-block: 10px !important;
+        }
+    }
+    .nav-link{
+        font-size: 16px !important;
+        margin: 5px !important;
+        padding: 5px !important;
+        
+    }
+    /*FIN HEADER*/
+/*FIN INDEX.HTML*/
+
+//INICIO FOOTER//
+
+    .redesico img{
+        width: 40px;
+        padding: 5px !important;
+    }
+/*FIN FOOTER*/
+
+//INICIO ELECCION-VEGANA.HTML//
+
+    .mainVegano1{
+        h3{
+            font-size: 32px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+    }
+    .VeganDatos{
+        padding-block: 2rem !important;
+    }
+    .mainVegano2{
+        background-image: url(imagenes/FondoVeganoIndex2.png);
+        background-size: cover;
+        background-repeat: no-repeat;     
+        
+        p{
+            padding: 2rem !important;
+            font-size: 20px;
+        }
+    }
+//FIN ELECCION-VEGANA.HTML//
+
+    //INICIO MENU.HTML//
+
+    .card{
+        margin: 4rem !important;
+        width: 300px !important;
+        min-height: 600px !important ;
+
+        img{
+            width: 300px !important;
+            min-height: 300px !important;
+        }
+    }
+//fin MENU.HTML//
+}
+
+
+    //---------------------//

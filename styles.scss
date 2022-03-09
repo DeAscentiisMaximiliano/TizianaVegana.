@@ -1,0 +1,43 @@
+/*MAP-COLORES*/
+
+@import "320px";
+@import "768px";
+@import "992px";
+@import "1024px";
+@import "1200px";
+
+$fontColors: (
+    verde: rgba(70, 185, 35, 0.637),
+    naranja: rgb(255, 123, 0),
+    blanco: white,
+);
+$BackgColors:(
+    blancoBG: white,
+);
+
+@mixin fontPoppinBold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;    
+};
+@mixin fontSpecialElite {
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+};
+
+
+@import "320px";
+@import "768px";
+@import "992px";
+@import "1024px";
+@import "1200px";
+
+
+
+
+    
+
+    
+    
+        
+
+

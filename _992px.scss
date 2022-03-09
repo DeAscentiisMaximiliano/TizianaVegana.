@@ -1,0 +1,180 @@
+@media (min-width: 992px){
+        //inicio INDEX.html//
+    /*HEADER*/ 
+        .container-fluid{
+            h1{
+                margin-inline: 1rem !important;
+                a:hover{
+                    color: map-get($fontColors, naranja);
+                }
+            }
+        }    
+
+        .nav-link{
+            text-transform: uppercase;
+            padding-inline: 5px !important;
+            margin-inline: 5px !important;
+            font-size: 18px;
+        }
+
+        .nav-item:hover{
+            transform: scale(1.05);
+        }
+    
+        /*FIN HEADER*/
+    
+        /*INICIO CENTERPAGE*/
+    
+    
+        /*inicio grid center page*/
+
+        .indexMain{
+            display: grid;
+            grid-template-columns: 50% 50%;                
+    
+            .p2{
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+            }
+
+            img{
+                padding-bottom: 10% !important;
+                width: 250px !important;
+            }   
+        }    
+    
+        //INICIO FOOTER//
+        footer{
+            margin-top: 1rem !important;
+        }
+    
+    
+    
+        //INICIO ELECCION-VEGANA.HTML//
+        .mainVeganoHTML{
+            padding: 8rem !important;
+        }
+
+        .mainVegano1{
+            p{
+                padding-block: 3rem !important;
+            }
+        }
+    
+        .VeganDatos{
+            padding-bottom: 5rem !important;
+            text-align: left;
+        }
+
+        .mainVegano2{
+            p{
+                padding: 1.5rem !important;
+                }
+        }
+        //FIN ELECCION-VEGANA.HTML//
+    
+        //INICIO MENU.HTML//
+        //centerpage//
+        .mainMenu-html{    
+            p{
+                margin-inline: 0.5rem !important;
+            }
+        }
+        .CardsMenu-html{
+            display: grid;
+            grid-column: 50%, 50%;
+
+            .card-body{
+                padding-block: 1rem !important;
+            }
+    
+        }
+        .card{
+            margin-inline: 4rem !important;
+            height: 500px !important;
+            width: 250px !important;
+
+            img{   
+            max-width: 300px !important;
+            height: 180px !important ;
+            }
+        }
+        .card-body{ 
+            h4{
+                padding-inline: 0.2rem !important;
+            }
+    
+            a{
+                margin: 0.5rem !important;
+                padding: 0.5rem !important;
+            }
+        }
+
+        .card2 .btn.btn-primary{
+                margin-top: 12px!important;
+        }
+        //fin MENU.HTML//
+    
+        //INICIO PREPARA-EN-CASA.HTML//
+        .mainRecetas-html{
+            img{
+                width: 250px;
+                margin-top: 4.5rem !important;
+            }
+        }
+    
+        .recetasheader{ 
+            height: 400px !important;
+            h3{
+                text-shadow: black 0px 1px;
+            }
+        }        
+        
+        .receta1 .recetasheader{
+            background-image: url(imagenes/Recetas1.png);
+            background-size: cover;
+        }
+        .receta2 .recetasheader{
+            background-image: url(imagenes/Recetas2.png);
+            background-size: cover;
+        }
+        .receta3 .recetasheader{
+            background-image: url(imagenes/Recetas3.png);
+            background-size: cover;
+        }
+        .receta4 .recetasheader{
+            background-image: url(imagenes/Recetas4.png);
+            background-size: cover;
+        }
+
+    //INICIO CONTACTO.HTML//
+    //FORMULARIO//
+    .main-contacto{
+        padding-bottom: 2rem !important;
+    
+        h2{
+            padding: 1rem !important;
+            font-size: 20px;
+        }
+    }
+    
+    .half.left.cf{   
+        margin-left: 23rem !important;
+
+    }   
+    
+    .half.right.cf{
+        margin-left: 23rem !important;
+    }
+    .enviar-boton{
+        input{
+        width: 500px;
+        margin-left: 15rem !important;
+        }
+        input:hover{
+            transform: scale(1.05);
+        }
+    }
+}
+
+//--------------------------------------------------------//

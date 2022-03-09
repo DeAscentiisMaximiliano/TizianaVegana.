@@ -1,0 +1,65 @@
+@media (min-width: 1200px){
+    
+    /*INICIO HEADER*/
+        .container-fluid img{
+            padding-left: 10px !important;
+        
+            h1{
+                font-size: 40px;
+                padding-inline: 20px !important;
+        }
+    }
+
+        .nav-link{
+            font-size: 18px !important;
+            margin-inline: 5px !important;
+            padding-inline: 10px !important;
+            
+        }
+/* FIN HEADER*/    
+/*INICIO FOOTER*/    
+        .redesico img{
+            width: 50px !important;
+        }
+/*FIN FOOTER*/
+
+/*INICIO CONTACTO.HTML*/
+
+        .main-contacto{
+            height: 750px !important;
+
+    }
+        
+        .half.left.cf{   
+            margin-left: 10rem !important;
+            margin-top: 10rem !important;
+            input{
+                padding: 0.5rem !important;
+                margin-block: 5rem !important;
+                width: 350px !important;
+                }
+        }   
+        
+        .half.right.cf{
+            position: relative;
+            margin-left: 38rem !important;
+            top: -350px !important;
+            
+            textarea{
+            width: 450px !important;
+            height: 300px !important;
+            }
+        }
+        .enviar-boton{
+            input{
+            width: 700px;
+            margin-left: 13rem !important;
+            position: relative;
+            top: -300px !important;
+            }
+            input:hover{
+                transform: scale(1.05);
+            }
+        }    
+/*FIN CONTACTO.HTML*/
+}

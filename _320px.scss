@@ -1,0 +1,428 @@
+@media (min-width: 320px), (max-width: 768px){
+
+    *{
+        padding: 0 !important;
+        margin: 0 !important;
+        box-sizing: border-box;
+    }
+    //inicio INDEX.html//
+/*HEADER*/ 
+    .navbar{
+        background: linear-gradient(to top, rgb(212, 212, 212), map-get($BackgColors , blancoBG))!important;
+        border-bottom: solid rgb(201, 201, 201) 5px;
+    }
+
+    .container-fluid{ 
+        h1 {
+            text-transform: uppercase;
+            @include fontSpecialElite;
+            text-align: center;
+            margin-top: 12px !important;
+            font-size: 2.5rem;
+            text-shadow: rgb(255, 255, 255) 0px 0px 5px;
+        }
+
+        img{
+            width: 0;    
+        }
+
+        .navbar-toggler{
+            margin-right: 10px !important;
+            border: none ;
+            border-radius: 6px;
+        }
+    
+        a{
+            text-decoration: none !important;
+            color: map-get($fontColors , verde);
+        }
+    } 
+
+    .navbar-collapse{
+        text-transform: uppercase;
+        margin-inline: 1rem !important;
+        margin: 0% !important;
+
+        .nav-link{
+            @include fontPoppinBold ;
+            text-align: center;
+            color: map-get($fontColors, naranja) !important;
+            background-color: rgba(116, 253, 75, 0.082);
+            font-size: 1.2rem;
+            box-shadow: 0px 0px 2px 1px rgb(255, 255, 255) ;
+        }
+    }
+    /*FIN HEADER*/
+
+    /*INICIO CENTERPAGE*/
+
+    .carousel.inner img{
+        border-bottom: solid rgba(0, 0, 0, 0.192) 3px;
+        height: 200px
+    }
+
+
+    /*inicio grid center page*/
+    
+    
+        .centerPageIndex h3{
+            text-align: center;
+            padding: 0.5rem !important;
+            background: linear-gradient(to bottom, rgba(255, 123, 0, 0.514), rgba(255, 255, 255, 0.356))!important;
+            color: map-get($fontColors, verde );
+            text-shadow: 1px -1px 2px rgb(255, 255, 255);
+            @include fontSpecialElite;
+        }
+    
+    .indexMain{
+        justify-content: center;
+        flex-direction: column;
+        display: flex; 
+        
+        p{
+            padding: 5% !important;
+            text-align: center;
+            text-shadow: rgb(255, 255, 255) 2px 2px 5px;
+            @include fontPoppinBold ;
+            font-size: 16px;
+            
+        }
+        img{
+            padding-bottom: 20% !important;
+        }
+    }
+    
+
+    //INICIO FOOTER//
+    footer{
+        background: linear-gradient(to bottom, rgb(212, 212, 212), map-get($BackgColors , blancoBG));
+        box-shadow: 0px 0px 4px 8px rgb(212, 212, 212);
+    }
+    .row h5{
+        @include fontSpecialElite;
+        margin-top: 0.5rem !important;
+        color:map-get($fontColors , verde ); 
+    }
+
+    .redesico img{
+        width: 40px;
+        padding: 5px !important;
+    }
+    .footer-copyright{
+        font-weight: bold !important;
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+        padding-top: 0% !important;
+
+        h6{
+            font-weight: bold !important;
+            font-size: 13px;
+        }
+    }
+
+
+
+    //INICIO ELECCION-VEGANA.HTML//
+    .mainVeganoHTML{
+        color: map-get($fontColors , blanco);
+        text-shadow: 0 0 1px black;
+        padding: 1rem !important;
+        text-align: center;
+        font-size: 18px !important;
+        background-image: url(imagenes/FondoVeganoIndex.png);
+        background-size: cover;
+
+        h2{
+            background-color: rgba(0, 0, 0, 0.329);
+            border-radius: 5px;
+        }
+        p{
+            border-top: solid 2px rgba(0, 0, 0, 0.13);
+            margin: 5%;
+            font-size: 16px;
+            background-color: rgba(0, 0, 0, 0.329);
+            border-radius: 5px;
+        }
+    }
+
+    .mainbanner .banner{
+        opacity: 0.1;
+        max-height: 30px;
+        width: 100%;
+        box-shadow: grey 1px 1px 1px 1px;
+        }
+
+
+
+    .mainVegano1{
+        text-align: center;
+
+        h3{
+            text-align: center;
+            padding: 0.5rem !important;
+            background: linear-gradient(to bottom, rgba(255, 123, 0, 0.514), rgba(255, 255, 255, 0.356))!important;
+            color: map-get($fontColors , verde );
+            text-shadow: 1px -1px 2px rgb(255, 255, 255);
+            @include fontSpecialElite;
+        }
+
+        p{
+            @include fontPoppinBold;
+        }
+    }
+    .VeganDatos{
+        margin: 1rem !important;
+
+        ul{
+            padding-inline: 1rem!important;
+        }
+        text-align: left;
+
+        li{
+            border-bottom: solid rgba(43, 43, 43, 0.342) 2px;
+            @include fontPoppinBold ;
+        }
+    }
+    
+    .mainVegano2{
+        box-shadow: rgba(201, 125, 64, 0.315) 0px 0px 10px 10px ;
+        background-image: url(imagenes/FondoVeganoIndex2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        p{
+            padding: 1rem !important;
+            text-align: center;
+            text-shadow: 0px 0px 3px rgb(255, 255, 255), 0px 0px 1px rgb(255, 255, 255);
+            background-color: rgba(201, 125, 64, 0.315);
+            color: rgb(43, 43, 43);
+            font-weight: bold;
+            }
+        
+    }
+//FIN ELECCION-VEGANA.HTML//
+
+//INICIO MENU.HTML//
+    //centerpage//
+    .mainMenu-html{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h2{
+            text-transform: uppercase;
+            @include fontSpecialElite;
+            margin: 1rem !important;
+        }
+        p{
+            @include fontPoppinBold ;
+        }
+    }
+    
+    .card{
+        margin: 1rem !important;
+        box-shadow: rgba(0, 0, 0, 0.279) 0px 0px 10px 0px ;
+    }
+    .card-body{
+        p{
+            font-size: 10px;
+            margin: 0.5rem !important;
+        } 
+        a{
+            margin: 1rem !important;
+            padding: 0.3rem !important;
+            border: solid #00a023 1px;
+            background-color: map-get($fontColors, naranja);
+        }    
+    }
+
+    //fin MENU.HTML//
+
+    
+    //INICIO PREPARA-EN-CASA.HTML//
+    .mainRecetas-html{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h2{
+            font-family: 'Special Elite', cursive;
+            padding: 1rem !important;
+            color: map-get($fontColors, naranja);
+            text-transform: uppercase;
+        }
+
+        p{
+            @include fontPoppinBold ;
+            font-size: 16px;
+            margin-bottom: 1rem !important;
+        }
+        h4{
+            text-transform: uppercase;
+            text-align: left;
+            margin: 0.5rem !important;
+            @include fontPoppinBold ;
+        }
+        img{
+            width: 200px;
+            margin: 1.5rem !important;
+            padding: 1.5rem !important;
+            background-color: rgba(0, 0, 0, 0.301);
+            
+        }
+
+        
+        ul{
+            @include fontPoppinBold ;
+            font-size: 12px;
+        }  
+        
+        h5{
+            color: map-get($fontColors , verde );
+            text-transform: capitalize;
+            margin-block: 1rem !important;
+            padding-bottom: 0.5rem !important;
+            border-top: solid rgba(0, 0, 0, 0.459);
+            background: linear-gradient(to bottom, rgba(255, 123, 0, 0.514), rgb(255, 255, 255))!important;
+        }
+        
+        p{
+            font-size: 14px;
+            margin: 1rem !important;
+        }    
+    }
+
+    .recetasheader{
+        box-shadow: rgba(0, 0, 0, 0.762) 0px 0px 10px 2px ;
+
+        h3{
+            padding: 0.5rem !important;
+            color: rgb(255, 255, 255);
+            text-shadow: black 0px 1px;
+            background-color: rgba(0, 0, 0, 0.301);
+        }
+}
+    .receta1 .recetasheader{
+        background-image: url(imagenes/Recetas1.png);
+    }
+    .receta2 .recetasheader{
+        background-image: url(imagenes/Recetas2.png);
+    }
+    .receta3 .recetasheader{
+        background-image: url(imagenes/Recetas3.png);
+    }
+    .receta4 .recetasheader{
+        background-image: url(imagenes/Recetas4.png);
+    }
+    .mainRecetas2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h3{
+            font-family: 'Special Elite', cursive;
+            padding: 1rem !important;
+            color: map-get($fontColors, naranja);
+            text-transform: uppercase;
+            border-top: solid rgba(0, 0, 0, 0.568) 3px;
+            margin-inline: 1rem !important;
+            width: 100% !important ;
+            background: map-get($BackgColors , blancoBG) !important;
+        }
+
+        h5{
+            font-family: 'Special Elite', cursive;
+            padding: 1rem !important;
+        } 
+        
+        p{
+            @include fontPoppinBold ;
+            font-size: 16px;
+            margin-inline: 1rem !important;
+            margin-bottom: 1rem !important;
+            border-bottom: solid #00a023 1px;
+        }
+    }
+
+
+    //INICIO CONTACTO.HTML//
+//FORMULARIO//
+.main-contacto{
+    background-image: url(imagenes/FondoContacto2-html.png);
+    padding-bottom: 5rem !important;
+
+    h2{
+        padding: 0.8rem !important;
+        background-color: rgba(0, 0, 0, 0.479) !important;
+        margin-bottom: 2rem !important;
+        text-align: center;
+        color: map-get($fontColors, blanco) !important;
+        font-size: 18px;
+        @include fontPoppinBold;
+        text-shadow: map-get($fontColors, naranja)  0px 0px 1px;
+    }
+}
+
+.half.left.cf{   
+    margin-left: 12% !important;
+    input{
+        display: flex; 
+        flex-direction: column;
+        padding: 0.1rem !important;
+        margin-block: 1rem !important;
+        width: 250px !important;
+        background-color: rgba(0, 0, 0, 0.381);
+        color: map-get($fontColors , blanco);
+        text-transform: uppercase;
+        border: solid rgba(0, 0, 0, 0.288);
+        font-size: 10px;
+        }
+    
+        input::placeholder{
+            color: map-get($fontColors , blanco);
+            text-align: center;
+    }
+}   
+
+.half.right.cf{
+    margin-left: 12% !important;
+    margin-block: 3rem !important;
+    textarea{
+        width: 250px !important;
+        height: 100px !important;
+        background-color: rgba(0, 0, 0, 0.381);
+        color: map-get($fontColors , blanco);
+        text-transform: uppercase;
+        border: solid rgba(0, 0, 0, 0.288);
+        font-size: 10px;
+    } 
+    textarea::placeholder{
+        color: map-get($fontColors , blanco);
+    }
+}
+.enviar-boton input{
+    color: map-get($fontColors, blanco)  !important;
+    text-shadow: #ffffff 0px 0px 8px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border: solid rgba(0, 0, 0, 0.288);
+    width: 320px;
+    }
+
+/*fin centerpage*/
+
+//FIN CONTACTO.HTML//
+
+
+
+
+
+
+}
+
+    //--------------------------------------------------------//
